@@ -56,8 +56,8 @@ public class AndroidMeActivity extends AppCompatActivity {
                 .commit();
 
         BodyPartFragment legPartFragment = new BodyPartFragment();
-        bodyPartFragment.setmImageIds(AndroidImageAssets.getLegs());
-        bodyPartFragment.setmImageIndex(1);
+        legPartFragment.setmImageIds(AndroidImageAssets.getLegs());
+        legPartFragment.setmImageIndex(1);
         fragmentManager.beginTransaction()
                 .add(R.id.leg_container, legPartFragment)
                 .commit();
